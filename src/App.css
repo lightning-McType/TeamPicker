@@ -1,38 +1,97 @@
-.App {
+.dashboard {
+  display: flex;
+  justify-content: center;
+}
+.header-banner {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dashboard-items {
+  border: 1px solid black;
+  padding: 10px 30px 10px 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.body {
+  margin: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dash {
+  margin: 0;
+}
+.roster-key {
+  border: 1px solid black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+.bat-key {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.bowl-key {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.all-key {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.wicket-key {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.batsman {
+  width: 600px;
+}
+.wicket {
+  width: 600px;
+}
+.allrounders {
+  width: 600px;
+}
+.bowlers {
+  width: 600px;
+}
+.body-row1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.body-row2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.bat-key:hover {
+  background-color: lightcoral;
+}
+.bowl-key:hover {
+  background-color: lightcoral;
+}
+.wicket-key:hover {
+  background-color: lightcoral;
+}
+.all-key:hover {
+  background-color: lightcoral;
+}
+.footer {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.submit-button {
+  border: 2px solid black;
+  width: 500px;
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit-button:hover {
+  background-color: lightcoral;
+}
+.show-roster {
+  border: 2px solid black;
+  width: 500px;
+  text-align: center;
+}
+.show-roster:hover {
+  background-color: lightcoral;
 }
