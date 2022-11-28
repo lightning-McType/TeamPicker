@@ -135,16 +135,7 @@ function Selection() {
       setCredits(credits - 9);
     }
   };
-  // const addToRoster = () => {
-  //   let finalRoster = [];
-  //   finalRoster.push(...batsman);
-  //   finalRoster.push(...bowler);
-  //   finalRoster.push(...all);
-  //   finalRoster.push(...wicket);
-  //   console.log(finalRoster);
-  //   setRoster(finalRoster);
-  //   setShowRoster(true);
-  // };
+
   const fakeRender = () => {
     setForceUpdate(true);
   };
@@ -257,7 +248,9 @@ function Selection() {
             <div className="submit-button" onClick={fakeRender}>
               <h4>Submit</h4>
             </div>
-            <div className="show-roster" onClick={() => setShowRoster(true)}>Show Roster</div>
+            <div className="show-roster" onClick={() => setShowRoster(true)}>
+              Show Roster
+            </div>
           </div>
         </div>
       )}
